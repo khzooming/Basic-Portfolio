@@ -118,14 +118,17 @@ h4 {
 
 #buttons_portfolio {
     margin-right: 10px;
+    border-color: #ffffff;
 }
 
 #buttons_contact {
     margin-right: 200px;
+    border-color: #ffffff;
 }
 
 #buttons_about {
     margin-right: 10px;
+    border-color: #ffffff;
 }ß
 
 .page-wrap:after {
@@ -147,7 +150,7 @@ footer {
     height: 50px; 
     background-color: #666666;
     border-top-color: #4aaaa5;
-    border: 10px;
+    border-top: 10px;
     color: #ffffff;
 }
 
