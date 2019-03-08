@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+img {
+    margin-left: 25px;
+
+}
+
+.long_header {
+    display: inline-block;
+    background-color: #ffffff;
+    border-block-end-color: #cccccc;
+    border: 1px;
+    width: 100%;
+    height: 45px;
+}
+
+.my_button {
+    float: right;
+}
+
+
+h3 {
+    display: inline-block;
+    background-color: #4aaaa5;
+    margin-left: 200px;
+    padding: 0px;
+    border-width: 1px;
+    height: 45px;
+    width: 180px;
+    z-index: 2;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+h4 {
+    display: block;
+    height: 45px;
+    border-bottom-color: red;
+    border-bottom-width: 20px;
+    z-index: 2;
+    margin: 20px;
+    color: #4aaaa5;
+}
+
+
+.body_fonts {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.boxed {
+    display: block;
+    width: 400px;
+    height: 440px;
+    margin: 20px;
+    color: #ffffff;
+    padding: 10px;
+    border-style: solid;
+    border-width: 12px;
+}
+   
+#boxText {
+    display: block;
+    width: 600px;
+    height: auto;
+    position: relative;
+    left: 400px;
+    bottom: 200px;
+    margin-bottom: 40px;
+}
+
+#boxContent {
+    display: block;
+    background-color: #ffffff;
+    margin-top: 20px;
+    z-index: 2;
+    width: 960px;
+    margin-left: 200px
+}
+
+.middle {
+    z-index: 1;
+    background-image: src="./assets/images/full-bloom.png";
+
+}
+
+.main {
+    background-color: #ffffff;
+    border-block-end-color: #dddddd;
+    width: 960px;
+}
+
+//.name {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#buttons_portfolio {
+    margin-right: 10px;
+}
+
+#buttons_contact {
+    margin-right: 200px;
+}
+
+#buttons_about {
+    margin-right: 10px;
+}ß
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+    
+// .site-footer, .page-wrap:after {
+    display: block;
+    height: 142px; 
+    background-color: #666666;
+    border-top-color: #4aaaa5;
+    border-top: 5px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    height: 50px; 
+    background-color: #666666;
+    border-top-color: #4aaaa5;
+    border: 10px;
+    color: #ffffff;
+}
+
